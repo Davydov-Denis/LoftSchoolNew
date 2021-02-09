@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LoftMoney</string>
+    <string name="edittext_name_hint">Title</string>
+    <string name="edittexy_price_hint">Price</string>
+    <string name="edittext_button_title">Add</string>
+    <string name="Test_HW">Hello World!</string>
 </resources>
