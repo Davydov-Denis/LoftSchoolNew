@@ -27,7 +27,7 @@ public class MoneyCellAdapter extends RecyclerView.Adapter<MoneyCellAdapter.Mone
     @Override
     public MoneyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
-        return new MoneyViewHolder(layoutInflater.inflate(R.layout.cell_money, parent, false);
+        return new MoneyViewHolder(layoutInflater.inflate(R.layout.cell_money, parent, false));
     }
 
     @Override
