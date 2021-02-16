@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void configureRecyclerView() {
 
-        //ниже itemsView красный, а должен на что-то ссылаться вроде 
+        //ниже itemsView красный, а должен на что-то ссылаться вроде
 
         itemsView = findViewById(R.id.itemsView);
         itemsView.setAdapter(moneyCellAdapter);
