@@ -33,12 +33,15 @@ public class MainActivity extends AppCompatActivity {
     }
     private void generateMoney() {
         List<MoneyItem> moneyItems = new ArrayList<>();
-        moneyItems.add(new MoneyItem( title:"Sony", value:"1P"))
-        moneyItems.add(new MoneyItem(title:"Z/P", value:"100P"));
+        moneyItems.add(new MoneyItem( "Sony", "1P"));
+        moneyItems.add(new MoneyItem( "Z/P", "100P"));
 
         moneyCellAdapter.setData(moneyItems);
     }
     private void configureRecyclerView() {
+
+        //ниже itemsView красный, а должен на что-то ссылаться вроде 
+
         itemsView = findViewById(R.id.itemsView);
         itemsView.setAdapter(moneyCellAdapter);
 
